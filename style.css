@@ -6,16 +6,16 @@
 }
 
 body{
-    display: flex;
+    display: block ;
     justify-content: center;
     align-items: center;
     height: 100vh;
     text-align: center;
-    background: url(img/bricks.jpg) no-repeat center center/cover
+    background: url(img/bricks.jpg)  center center/cover
 }
 
 span{
-    color: rgb(255, 255, 255);
+    color: rgb(183, 127, 127);
     font-family: cursive;
     
 }
@@ -24,6 +24,7 @@ h1{
     font-size: 3rem;
     width: 100%;
     margin: 20px 10px;
+    color: #ee6120;
 }
 
 ul{
@@ -36,7 +37,6 @@ ul{
     font-weight: bold;
     color: white;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -61,11 +61,37 @@ ul{
 #contenedor{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     min-height: 80svh;
     width: 80svb;
     max-width: 600px;
-    background-color: rgb(130, 89, 89);
-    border: 3px solid;
+    background-color: rgb(228, 194, 194);
+    border: 2px solid;
+}
+#titulo{
+    background-color: black;
+    border: 1px solid color(srgb rgb(72, 42, 42) rgb(149, 183, 149) rgb(68, 68, 114));
+}
+a {
+    color: white;
+
+
+}
+carnes{
+    color: rgb(251, 253, 254);
+    background-color: #aa5822;
+}
+img{
+    align-items: center;
+}
+h2{
+    color: black;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    letter-spacing: -0.5px;
+	padding: 0 0 5px;
+	margin: 0;
+	font-weight: normal;
 }
